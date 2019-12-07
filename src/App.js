@@ -19,24 +19,24 @@ function App() {
 			isCompleted: false
 		}
 	]);
-	
+
 	const addTodo = text => {
 		const newTodos = [...todos, { text }];
 		setTodos(newTodos);
 	};
-	
+
 	const completeTodo = index => {
 		const newTodos = [...todos];
 		newTodos[index].isCompleted = !newTodos[index].isCompleted;
 		setTodos(newTodos);
 	};
-	
+
 	const removeTodo = index => {
 		const newTodos = [...todos];
 		newTodos.splice(index, 1);
 		setTodos(newTodos);
 	};
-	
+
 	return (
 		<div className="app">
 			<div className="todo-list">

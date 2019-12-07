@@ -1,6 +1,6 @@
-# react-hooks-todo-app
+# Todo-app-with-react-hooks
 
-A todo App with React hooks
+A todo App using create-react-app with React hooks
 
 Feature:
 
@@ -8,8 +8,6 @@ Create + Read + Update + Delete
 
 ## Install:
 
-$  git clone https://github.com/ShuvoHabib/react-hooks-todo-app.git
-
-$  yarn
+$  yarn install
 
 $  yarn start
